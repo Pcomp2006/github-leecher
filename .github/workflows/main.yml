@@ -4,11 +4,11 @@ on:
   workflow_dispatch:
     inputs:
       file_url:
-        description: 'لینک مستقیم فایل مورد نظر'
+        description: 'https://github.com/Angel-Studio/MaterialYou-Dynamic-Island/releases/download/1.0.5/material-you-dynamic-island-v1.0.5.apk'
         required: true
         type: string
       zip_password:
-        description: 'رمز عبور برای فایل فشرده'
+        description: '0317'
         required: true
         type: string
       delete_old_archives:
